@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_back_arrow.xml" value="0.243" />
+        <entry key="app/src/main/res/drawable/ic_splash.xml" value="0.243" />
+        <entry key="app/src/main/res/drawable/parallelogram_backgroud.xml" value="0.243" />
+        <entry key="app/src/main/res/drawable/rounded_orange_stroke.xml" value="0.243" />
+        <entry key="app/src/main/res/drawable/shimmer_light.xml" value="0.243" />
+        <entry key="app/src/main/res/drawable/shimmer_light_rounded.xml" value="0.243" />
+        <entry key="app/src/main/res/drawable/square_background.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/tilted_backgroud.xml" value="0.243" />
+        <entry key="app/src/main/res/layout/fragment_character_details.xml" value="0.4414784394250513" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.4" />
+        <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.259963768115942" />
+        <entry key="app/src/main/res/layout/item_character.xml" value="0.259963768115942" />
+        <entry key="app/src/main/res/layout/item_comic.xml" value="0.259963768115942" />
+        <entry key="app/src/main/res/layout/item_image.xml" value="1.2" />
+        <entry key="app/src/main/res/layout/item_series.xml" value="0.6" />
+        <entry key="app/src/main/res/layout/shimmer_comics.xml" value="0.259963768115942" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.259963768115942" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

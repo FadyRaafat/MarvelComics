@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MarvelComics</string>
+    <string name="retry">Retry</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="series">Series</string>
+    <string name="comics">Comics</string>
+    <string name="check_connection_try_again">Check internet and try again.</string>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/fragmentSplash">
+    <fragment
+        android:id="@+id/fragmentSplash"
+        android:name="com.fady.marvelcomics.ui.fragments.FragmentSplash"
+        android:label="fragmentSplash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_fragmentSplash_to_fragmentHome"
+            app:destination="@id/fragmentHome"
+            app:enterAnim="@anim/pop_enter_slide_up"
+            app:exitAnim="@anim/pop_exit_slide_up"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.fady.marvelcomics.ui.fragments.FragmentHome"
+        android:label="fragmentHome"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentCharacterDetails"
+            app:destination="@id/fragmentCharacterDetails"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentCharacterDetails"
+        android:name="com.fady.marvelcomics.ui.fragments.FragmentCharacterDetails"
+        android:label="FragmentCharacterDetails"
+        tools:layout="@layout/fragment_character_details">
+        <argument
+            android:name="character"
+            app:argType="com.fady.marvelcomics.api.models.CharactersResponse$Data$Result"
+            />
+    </fragment>
+
+
+</navigation>
